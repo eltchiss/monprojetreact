@@ -1,0 +1,9 @@
+.services-banner {
+  width: 100%;
+  height: 40vh; /* hauteur relative à l’écran */
+  min-height: 250px; /* hauteur mini */
+  background-image: url('../img/banner.jpg');
+  background-size: cover; /* l’image couvre tout */
+  background-position: center;
+  background-repeat: no-repeat;
+}

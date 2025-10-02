@@ -17,6 +17,12 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
               necessitatibus consectetur tempora perferendis nostrum ex delectus
               recusandae impedit aut iure enim.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              necessitatibus consectetur tempora perferendis nostrum ex delectus
+              recusandae impedit aut iure enim.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              necessitatibus consectetur tempora perferendis nostrum ex delectus
+              recusandae impedit aut iure enim.
             </p>
           </div>
 

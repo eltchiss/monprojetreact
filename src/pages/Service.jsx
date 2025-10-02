@@ -1,8 +1,9 @@
+import ServicesBanner from "../components/ServicesBanner";
 
 const Service = () => {
     return(
         <div>
-            <h1>Mes services</h1>
+            <ServicesBanner/>
         </div>
     )
 }

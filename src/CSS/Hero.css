@@ -1,0 +1,28 @@
+.hero {
+  height: 70vh; /* hauteur bannière */
+  background-image: url('../img/hero-bg.jpg'); /* ton image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.hero-content .btn {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.2rem;
+}
