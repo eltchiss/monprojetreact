@@ -1,0 +1,29 @@
+
+#portfolio-cards h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.card-img-wrap {
+  height: 180px;               /* ajuste la hauteur d'image */
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+}
+
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* crop propre */
+  display: block;
+}
+
+.portfolio-card .card-footer {
+  border-top: 1px solid #e9ecef;
+  font-size: 0.85rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media (min-width: 992px) {
+  .card-img-wrap { height: 200px; }
+}
