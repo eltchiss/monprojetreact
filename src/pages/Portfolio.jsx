@@ -1,8 +1,12 @@
+import ServicesBanner from "../components/ServicesBanner";
+import PortfolioCards from "../components/PortfolioCards";
+
 
 const Portfolio = () => {
     return(
         <div>
-            <h1>Mon portfolio</h1>
+            <ServicesBanner/>
+            <PortfolioCards/>
         </div>
     )
 }

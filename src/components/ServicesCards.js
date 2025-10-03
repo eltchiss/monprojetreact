@@ -3,8 +3,7 @@ import Card from 'react-bootstrap/Card';
 function ServicesCard() {
   return (
     <div>
-      {/* Bannière */}
-
+    
       {/* Titre sous la bannière */}
       <div className="text-center my-5">
         <h2 className="fw-bold">Mon offre de services</h2>
