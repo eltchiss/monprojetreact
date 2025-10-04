@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import "../CSS/Cards.css";
 
 function ServicesCard() {
   return (

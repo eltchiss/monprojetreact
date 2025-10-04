@@ -1,3 +1,22 @@
+
+/* Import de la police depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+/* Définir la police par défaut */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400; /* corps de texte */
+}
+
+/* Titres et balises <strong> */
+h1, h2, h3, h4, h5, h6,
+strong {
+  font-weight: 600; /* semi-bold */
+}
+
+
+
+
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -11,3 +30,5 @@ body {
 main {
   flex: 1;
 }
+
+
