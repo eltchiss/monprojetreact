@@ -1,8 +1,10 @@
+import Accordions from "../components/Accordion.js";
+
 
 const Legal = () => {
     return(
         <div>
-            <h1>Mentions légales</h1>
+            <Accordions/>
         </div>
     )
 }
