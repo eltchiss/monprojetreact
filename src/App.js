@@ -10,7 +10,6 @@ import Footer from "./components/Footer";
 
 
 
-
 export default function App() {
   return (
     <div className="App">
@@ -19,3 +18,13 @@ export default function App() {
     </div>
   );
 }
+
+
+
+    
+
+
+
+
+
+
