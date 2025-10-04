@@ -1,0 +1,4 @@
+/* Effet au survol des cartes services */
+.card:hover {
+  background-color: #efefef;
+}

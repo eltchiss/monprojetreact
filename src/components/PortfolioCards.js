@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "../CSS/Portfolio.css"; 
+import "../CSS/Cards.css";
 
 import freshFood from "../img/fresh-food.jpg";
 import japon from "../img/restaurant-japonais.jpg";
