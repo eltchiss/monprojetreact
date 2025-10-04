@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
+
 
 const Footer = () => {
   return (
@@ -16,34 +19,46 @@ const Footer = () => {
               <li>10 20 30 40 50</li>
               <li>jeanne.doe@gmail.com</li>
             </ul>
+             {/*Réseaux sociaux*/}
+          <div className="mt-3">
+              <a href="https://github.com/" target="_blank" className="text-light me-3 fs-4">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" className="text-light me-3 fs-4">
+                <i className="bi bi-twitter"></i>
+              </a>
+              <a href="https://linkedin.com/" target="_blank" className="text-light fs-4">
+                <i className="bi bi-linkedin"></i>
+              </a>
+            </div>
           </div>
-
 
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h5 className="text-uppercase mb-0">Liens utiles</h5>
             <ul className="list-unstyled">
-              <li><a href="#!" className="link-light text-decoration-none">Accueil</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Services</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Portfolio</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Mentions légales</a></li>
-            </ul>
+    <li><Link to="/" className="link-light text-decoration-none">Accueil</Link></li>
+    <li><Link to="/service" className="link-light text-decoration-none">Services</Link></li>
+    <li><Link to="/portfolio" className="link-light text-decoration-none">Portfolio</Link></li>
+    <li><Link to="/legal" className="link-light text-decoration-none">Mentions légales</Link></li>
+  </ul>
           </div>
 
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h5 className="text-uppercase">Mes dernières réalisations</h5>
             <ul className="list-unstyled mb-0">
-              <li><a href="#!" className="link-light text-decoration-none">Fresh food</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Restaurant Akira</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Espace bien-être</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">SEO</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Création d'une API</a></li>
-              <li><a href="#!" className="link-light text-decoration-none">Maquette d'un site</a></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">Fresh food</Link></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">Restaurant Akira</Link></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">Espace bien-être</Link></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">SEO</Link></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">Création d'une API</Link></li>
+              <li><Link to="/portfolio" className="link-light text-decoration-none">Maquette d'un site</Link></li>
             </ul>
           </div>
         </div>
       </div>
 
     </footer>
+
     
   );
 };

@@ -22,22 +22,23 @@ const ContactCard = () => {
           <h5 className="mb-3 pb-2 custom-border">Formulaire de contact</h5>
           <Form>
             <Form.Group className="mb-3" controlId="formName">
-              <Form.Control type="text" placeholder="Votre nom" />
+              <Form.Control type="text" placeholder="Votre nom" required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Control type="email" placeholder="Votre adresse email" />
+              <Form.Control type="email" placeholder="Votre adresse email" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formPhone">
-              <Form.Control type="tel" placeholder="Votre numéro de téléphone" />
+              <Form.Control type="tel" placeholder="Votre numéro de téléphone" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formSubject">
-              <Form.Control type="text" placeholder="Sujet" />
+              <Form.Control type="text" placeholder="Sujet" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formMessage">
               <Form.Control
                 as="textarea"
                 rows={15}
                 placeholder="Votre message"
+                required 
               />
             </Form.Group>
             <Button variant="primary" type="submit">
