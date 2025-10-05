@@ -1,10 +1,3 @@
-
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import "../CSS/Portfolio.css"; 
 import "../CSS/Cards.css";
 
@@ -15,83 +8,104 @@ import seo from "../img/seo.jpg";
 import coder from "../img/coder.jpg";
 import maquettes from "../img/screens.jpg";
 
-const projects = [
-  {
-    title: "Fresh Food",
-    subtitle: "Site de vente de produits frais en ligne",
-    img: freshFood,
-    foot: "Site réalisé avec PHP et MySQL",
-  },
-  {
-    title: "Restaurant Akira",
-    subtitle: "Site de vente de produits frais en ligne",
-    img: japon,
-    foot: "Site réalisé avec WordPress",
-  },
-  {
-    title: "Espace bien-être",
-    subtitle: "Site de vente de produits frais en ligne",
-    img: bienetre,
-    foot: "Site réalisé avec LARAVEL",
-  },
-  {
-    title: "SEO",
-    subtitle: "Amélioration du référencement d'un site e-commerce",
-    img: seo,
-    foot: "Utilisation des outils SEO",
-  },
-  {
-    title: "Création d'une API",
-    subtitle: "Création d'une API RESTFULL publique",
-    img: coder,
-    foot: "PHP - SYMFONY",
-  },
-  {
-    title: "Maquette d'un site web",
-    subtitle: "Création du prototype d'un site",
-    img: maquettes,
-    foot: "Réalisé avec FIGMA",
-  },
-];
-
 export default function PortfolioCards() {
   return (
     <section id="portfolio-cards" className="py-5">
-      <Container>
-        <h2 className="fw-bold text-center">Mon offre de services</h2>
-        <p className="text-muted text-center">
-          Voici les prestations sur lesquelles je peux intervenir
-        </p>
-        <hr
-          className="mx-auto"
-          style={{ width: "60px", borderTop: "3px solid #007bff" }}
-        />
+      <div className="container">
+        <div className="row g-4">
 
-        <Row className="g-4">
-          {projects.map((p, idx) => (
-            <Col key={idx} lg={4} md={6} sm={12}>
-              <Card className="h-100 shadow-sm portfolio-card">
-                <div className="card-img-wrap">
-                  <Card.Img variant="top" src={p.img} alt={p.title} />
-                </div>
+          {/* Fresh Food */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={freshFood} className="card-img-top" alt="Restaurant" />
+              <div className="card-body text-center">
+                <h5 className="card-title">Fresh Food</h5>
+                <p className="card-text">Site de vente de produits frais en ligne.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">Site réalisé avec PHP et MySQL</small>
+              </div>
+            </div>
+          </div>
 
-                <Card.Body className="d-flex flex-column">
-                  <Card.Title className="text-center fw-bold mb-2">{p.title}</Card.Title>
-                  <Card.Text className="text-center text-muted small mb-3">{p.subtitle}</Card.Text>
+          {/* Restaurant Akira */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={japon} className="card-img-top" alt="Restaurant japonais" />
+              <div className="card-body text-center">
+                <h5 className="card-title">Restaurant Akira</h5>
+                <p className="card-text">Site pour un restaurant japonais.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">Site réalisé avec WordPress</small>
+              </div>
+            </div>
+          </div>
 
-                  <div className="mt-auto text-center">
-                    <Button variant="primary" size="sm">Voir le site</Button>
-                  </div>
-                </Card.Body>
+          {/* Espace bien-être */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={bienetre} className="card-img-top" alt="Espace bien-être" />
+              <div className="card-body text-center">
+                <h5 className="card-title">Espace bien-être</h5>
+                <p className="card-text">Site pour un espace bien-être.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">Site réalisé avec Laravel</small>
+              </div>
+            </div>
+          </div>
 
-                <Card.Footer className="bg-white border-top-0 text-muted small text-center">
-                  {p.foot}
-                </Card.Footer>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      </Container>
+          {/* SEO */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={seo} className="card-img-top" alt="SEO" />
+              <div className="card-body text-center">
+                <h5 className="card-title">SEO</h5>
+                <p className="card-text">Amélioration du référencement d'un site e-commerce.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">Utilisation des outils SEO</small>
+              </div>
+            </div>
+          </div>
+
+          {/* Création d'une API */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={coder} className="card-img-top" alt="Création d'une API" />
+              <div className="card-body text-center">
+                <h5 className="card-title">Création d'une API</h5>
+                <p className="card-text">Création d'une API Restful publique.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">PHP - Symfony</small>
+              </div>
+            </div>
+          </div>
+
+          {/* Maquette d'un site web */}
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card d-flex flex-column h-100">
+              <img src={maquettes} className="card-img-top" alt="Maquette d'un site web" />
+              <div className="card-body text-center">
+                <h5 className="card-title">Maquette d'un site web</h5>
+                <p className="card-text">Création du prototype d'un site.</p>
+                <a href="#" className="btn btn-primary">Voir le site</a>
+              </div>
+              <div className="card-footer text-center mt-auto"> 
+                <small className="text-muted">Réalisé avec Figma</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
   );
 }
