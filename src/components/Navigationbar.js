@@ -31,7 +31,6 @@ function Navigationbar() {
         </Container>
       </Navbar>
 
-      {/* wrapper pour gérer le décalage dû à fixed="top" */}
       <div className="page-content">
         <Routes>
           <Route path="/" element={<Home />} />

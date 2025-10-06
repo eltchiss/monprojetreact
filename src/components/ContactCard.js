@@ -1,20 +1,23 @@
-import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import "../CSS/Contact.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
+import "../CSS/Contact.css";
 
 const ContactCard = () => {
   return (
-       <Container className="my-5">
-      <h2 className="text-center mb-3 custom-boder">Contact</h2>
+    <Container className="my-5">
+      <h2 className="text-center mb-3">Contact</h2>
       <p className="text-center mb-4">
         Pour me contacter en vue d’un entretien ou d’une future collaboration,
         merci de remplir le formulaire de contact.
       </p>
       <hr
-          className="mx-auto"
-          style={{ width: "200px", borderTop: "3px solid #007bff" }}
-        />
+        className="mx-auto"
+        style={{width: "200px", borderTop: "3px solid #0d6efd" }}
+      />
 
       <Row className="shadow p-4 bg-white rounded">
         {/* Formulaire de contact */}
@@ -22,13 +25,21 @@ const ContactCard = () => {
           <h5 className="mb-3 pb-2 custom-border">Formulaire de contact</h5>
           <Form>
             <Form.Group className="mb-3" controlId="formName">
-              <Form.Control type="text" placeholder="Votre nom" required/>
+              <Form.Control type="text" placeholder="Votre nom" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Control type="email" placeholder="Votre adresse email" required />
+              <Form.Control
+                type="email"
+                placeholder="Votre adresse email"
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formPhone">
-              <Form.Control type="tel" placeholder="Votre numéro de téléphone" required />
+              <Form.Control
+                type="tel"
+                placeholder="Votre numéro de téléphone"
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formSubject">
               <Form.Control type="text" placeholder="Sujet" required />
@@ -38,7 +49,7 @@ const ContactCard = () => {
                 as="textarea"
                 rows={15}
                 placeholder="Votre message"
-                required 
+                required
               />
             </Form.Group>
             <Button variant="primary" type="submit">
@@ -50,7 +61,9 @@ const ContactCard = () => {
         {/* Coordonnées */}
         <Col md={6}>
           <h5 className="mb-3 pb-2 custom-border">Mes coordonnées</h5>
-          <p><strong>John Doe</strong></p>
+          <p>
+            <strong>John Doe</strong>
+          </p>
           <div className="d-flex align-items-center mb-2">
             <i className="bi bi-map me-2"></i>
             <span>40 rue Laure Diebold</span>

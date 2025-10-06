@@ -1,4 +1,3 @@
-import Card from 'react-bootstrap/Card';
 import "../CSS/Cards.css";
 
 function ServicesCard() {
@@ -13,7 +12,7 @@ function ServicesCard() {
         </p>
         <hr
           className="mx-auto"
-          style={{ width: "60px", borderTop: "3px solid #007bff" }}
+          style={{ width: "200px", borderTop: "3px solid #0d6efd" }}
         />
       </div>
 

@@ -1,6 +1,6 @@
 .hero {
   height: 70vh; /* hauteur bannière */
-  background-image: url('../img/hero-bg.jpg'); /* ton image */
+  background-image: url('../img/hero-bg.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex;
