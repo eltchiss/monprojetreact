@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row">
           {/* Grid column */}
           <div className="col-12 col-md-4 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Jeanne Doe</h5>
+            <h5 className="text-uppercase">Jane Doe</h5>
             <ul className="list-unstyled mb-0">
               <li>40 rue Laure Diebold</li>
               <li>69009 Lyon, France</li>

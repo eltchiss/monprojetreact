@@ -17,7 +17,7 @@ function Navigationbar() {
     <>
       <Navbar bg="dark" variant="dark" expand="lg"  fixed="top">
         <Container>
-          <Navbar.Brand as={NavLink} to="/">Jeanne Doe</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to="/">Jane Doe</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

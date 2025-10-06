@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div>
-        <h1>Bonjour, je suis Jeanne Doe</h1>
+        <h1>Bonjour, je suis Jane Doe</h1>
         <h2>Développeuse web full stack</h2>
         <button
           type="button"

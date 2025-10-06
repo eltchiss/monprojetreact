@@ -31,7 +31,7 @@ function Accordions() {
           >
             <div className="accordion-body">
               <p>
-                <strong>Jeanne Doe</strong>
+                <strong>Jane Doe</strong>
               </p>
               <div className="d-flex align-items-center mb-2">
                 <i className="bi bi-map me-2"></i>
@@ -47,7 +47,7 @@ function Accordions() {
               </div>
               <div className="d-flex align-items-center mb-2">
                 <i className="bi bi-envelope-at me-2"></i>
-                <span>jeanne.doe@gmail.com</span>
+                <span>jane.doe@gmail.com</span>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Accordions() {
           >
             <div className="accordion-body">
               <p>
-                Ce site à été réalisé par Jeanne Doe,{" "}
+                Ce site à été réalisé par Jane Doe,{" "}
                 <a href="https://www.centre-europeen-formation.fr/">
                   étudiante au centre européen de formation.
                 </a>
