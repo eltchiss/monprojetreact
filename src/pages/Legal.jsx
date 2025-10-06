@@ -8,10 +8,11 @@ const Legal = () => {
     return(
         <div>
             {/* Empêche l’indexation */}
-      <Helmet>
-        <meta name="robots" content="noindex, nofollow" />
-        <title>Mentions légales</title>
-      </Helmet>
+            <Helmet>
+            <meta name="robots" content="noindex, nofollow" />
+            <title>Mentions légales</title>
+            </Helmet>
+            
             <Accordions/>
         </div>
     )

@@ -1,0 +1,12 @@
+.social-icons a {
+  color: #f8f9fa; /* équivalent de .text-light */
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff; /* blanc encore plus clair */
+}
+
+footer a:hover {
+  font-weight: bold;
+}

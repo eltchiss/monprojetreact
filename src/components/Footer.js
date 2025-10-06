@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import "../CSS/Footer.css";
 
 
 
@@ -20,14 +21,14 @@ const Footer = () => {
               <li>jeanne.doe@gmail.com</li>
             </ul>
              {/*Réseaux sociaux*/}
-          <div className="mt-3">
-              <a href="https://github.com/" target="_blank" className="text-light me-3 fs-4">
+          <div className="mt-3 social-icons">
+              <a href="https://github.com/" target="_blank" className="me-3 fs-4">
                 <i className="bi bi-github"></i>
               </a>
-              <a href="https://twitter.com/" target="_blank" className="text-light me-3 fs-4">
+              <a href="https://twitter.com/" target="_blank" className="me-3 fs-4">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a href="https://linkedin.com/" target="_blank" className="text-light fs-4">
+              <a href="https://linkedin.com/" target="_blank" className="fs-4">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>
