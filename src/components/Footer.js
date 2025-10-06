@@ -1,12 +1,10 @@
-import React from 'react';
 import { Link } from "react-router-dom";
 import "../CSS/Footer.css";
 
 
-
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light text-center text-lg-start">
+    <footer className="bg-dark text-light text-center text-lg-start mt-auto">
       {/* Grid container */}
       <div className="container p-4">
         {/* Grid row */}
@@ -22,13 +20,13 @@ const Footer = () => {
             </ul>
              {/*Réseaux sociaux*/}
           <div className="mt-3 social-icons">
-              <a href="https://github.com/" target="_blank" className="me-3 fs-4">
+              <a href="https://github.com/github-john-doe" target="_blank" rel="nofollow noopener noreferrer" className="me-3 fs-4">
                 <i className="bi bi-github"></i>
               </a>
-              <a href="https://twitter.com/" target="_blank" className="me-3 fs-4">
+              <a href="https://twitter.com/" target="_blank" rel="nofollow noopener noreferrer" className="me-3 fs-4">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a href="https://linkedin.com/" target="_blank" className="fs-4">
+              <a href="https://linkedin.com/" target="_blank" rel="nofollow noopener noreferrer" className="fs-4">
                 <i className="bi bi-linkedin"></i>
               </a>
             </div>

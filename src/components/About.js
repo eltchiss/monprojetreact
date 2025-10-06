@@ -1,4 +1,4 @@
-import aboutImg from '../img/john-doe-about.jpg';
+import aboutImg from "../img/john-doe-about.jpg";
 
 const About = () => {
   return (
@@ -8,21 +8,16 @@ const About = () => {
           {/* Colonne gauche */}
           <div className="col-md-6">
             <h3>À propos</h3>
-            <img
-              src={aboutImg} 
-              alt="portrait" 
-              className="img-fluid mb-3"
-            />
+            <img src={aboutImg} alt="portrait" className="img-fluid mb-3" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
               necessitatibus consectetur tempora perferendis nostrum ex delectus
-              recusandae impedit aut iure enim.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              necessitatibus consectetur tempora perferendis nostrum ex delectus
-              recusandae impedit aut iure enim.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              necessitatibus consectetur tempora perferendis nostrum ex delectus
-              recusandae impedit aut iure enim.
+              recusandae impedit aut iure enim. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Odio, necessitatibus consectetur
+              tempora perferendis nostrum ex delectus recusandae impedit aut
+              iure enim. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Odio, necessitatibus consectetur tempora perferendis nostrum
+              ex delectus recusandae impedit aut iure enim.
             </p>
           </div>
 

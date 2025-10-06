@@ -27,7 +27,6 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Ici j’injecte la modale réutilisable */}
       <Modal user={user} />
     </section>
   );
